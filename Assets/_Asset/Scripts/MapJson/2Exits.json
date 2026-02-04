@@ -1,0 +1,59 @@
+{
+  "column": 6,
+  "row": 6,
+  "listExitsInMap":[
+    {
+      "indexInMap":7,
+      "color":2
+    },
+    {
+      "indexInMap":16,
+      "color":5
+    }
+  ],
+  "listGeckoInMap": [
+    {
+      "colorGecko": 2,
+      "listNode": [
+        19,
+        25,
+        31,
+        30,
+        24,
+        18,
+        12,
+		6
+      ],
+      "indexHead": 19
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        22,
+        28,
+        34
+      ],
+      "indexHead": 22
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        9,
+        10,
+        11
+      ],
+      "indexHead": 9
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "indexHead": 5
+    }
+  ]
+}

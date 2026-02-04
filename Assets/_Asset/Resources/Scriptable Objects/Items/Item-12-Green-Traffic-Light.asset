@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85d59d295f50cb459a3d2acb9ea48d2, type: 3}
+  m_Name: Item-12-Green-Traffic-Light
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  type: 12
+  Name: Shovel
+  icon: {fileID: 21300000, guid: 967b3922ed2ee6c429b00ea9d54c2112, type: 3}
+  iconLocked: {fileID: 21300000, guid: 26f4e35a12ae3ab4db3024ff69d4a46f, type: 3}
+  description: "Permanently disables 1 selected Barrier. Select Booster \u2192 Select
+    Barrier. The chosen Barrier becomes deactivated forever and will always stay
+    open."
+  shortDescription: Chose one Barrier to break.
+  value: 0
+  priceByGold: 100
+  showInInventory: 1
+  isUsable: 0
+  iconTut: {fileID: 21300000, guid: 93bc1f1302bb9d4499dca84686fce5f3, type: 3}
+  strTut: Chose one Barrier to break.

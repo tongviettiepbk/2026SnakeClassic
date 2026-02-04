@@ -1,0 +1,71 @@
+{
+  "column": 6,
+  "row": 6,
+  "listBrickInMap":[
+    {
+      "indexInMap":13,
+      "hp":3
+    },
+    {
+      "indexInMap":5,
+      "hp":2
+    },
+    {
+      "indexInMap":16,
+      "hp":3
+    }
+  ],
+  "listGeckoInMap": [
+    {
+      "colorGecko": 2,
+      "listNode": [
+        19,
+        25,
+        31,
+        30,
+        24,
+        18,
+        12
+      ],
+      "indexHead": 19
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        6,
+        7,
+        8
+      ],
+      "indexHead": 6
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        22,
+        28,
+        34
+      ],
+      "indexHead": 22
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        9,
+        10,
+        11
+      ],
+      "indexHead": 9
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "indexHead": 5
+    }
+  ]
+}

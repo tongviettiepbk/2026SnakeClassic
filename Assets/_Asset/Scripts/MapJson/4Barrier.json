@@ -1,0 +1,53 @@
+{
+  "column": 6,
+  "row": 6,
+  "listBarrierInMap": [
+    {
+      "indexInMap": 7,
+      "isOpen": 0
+    }
+  ],
+  "listGeckoInMap": [
+    {
+      "colorGecko": 2,
+      "listNode": [
+        19,
+        25,
+        31,
+        30,
+        24,
+        18,
+        12,
+        6,
+        0
+      ],
+      "indexHead": 19
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        11,
+        10
+      ],
+      "indexHead": 11
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        3,
+        4,
+        5
+      ],
+      "indexHead": 3
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        17,
+        23,
+        29
+      ],
+      "indexHead": 17
+    }
+  ]
+}

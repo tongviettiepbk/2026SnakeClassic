@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551927145578",
+    "project_id": "pm-gpl-snakedom-escape-puzzle",
+    "storage_bucket": "pm-gpl-snakedom-escape-puzzle.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551927145578:android:a1298de3cb4e65a91d9613",
+        "android_client_info": {
+          "package_name": "com.snake.escape.grid.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj-NXvlCzO0n9dVIbDcLM-F9hOQ-Nb1CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

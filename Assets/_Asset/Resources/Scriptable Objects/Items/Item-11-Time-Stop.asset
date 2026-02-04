@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85d59d295f50cb459a3d2acb9ea48d2, type: 3}
+  m_Name: Item-11-Time-Stop
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  type: 11
+  Name: Time stop
+  icon: {fileID: 21300000, guid: c738fe92ffe86134eaa8d89bab1a530e, type: 3}
+  iconLocked: {fileID: 21300000, guid: 023a0685b2410b74795ff7c4e2a6587a, type: 3}
+  description: "Used to change the gecko\u2019s color. Select Booster \u2192 Select
+    Gecko \u2192 Choose the new color. The gecko will transform into the selected
+    color."
+  shortDescription: Freeze time for 30 seconds.
+  value: 30
+  priceByGold: 100
+  showInInventory: 1
+  isUsable: 0
+  iconTut: {fileID: 21300000, guid: 363c456eb97df164a8f83f74b99ec91f, type: 3}
+  strTut: Freeze time for 30 seconds.

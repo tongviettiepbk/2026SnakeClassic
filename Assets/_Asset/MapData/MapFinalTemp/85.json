@@ -1,0 +1,401 @@
+{
+    "score": 70.41788,
+    "timeLimit": 0,
+    "typeMap": 1,
+    "column": 12,
+    "row": 14,
+    "listGeckoInMap": [
+        {
+            "colorGecko": 2,
+            "listNode": [
+                20,
+                19,
+                18,
+                6,
+                7
+            ],
+            "indexHead": 20
+        },
+        {
+            "colorGecko": 6,
+            "listNode": [
+                46,
+                45,
+                44,
+                56,
+                68
+            ],
+            "indexHead": 46
+        },
+        {
+            "colorGecko": 3,
+            "listNode": [
+                94,
+                95,
+                107,
+                119,
+                131,
+                143,
+                142
+            ],
+            "indexHead": 94
+        },
+        {
+            "colorGecko": 1,
+            "listNode": [
+                102,
+                103,
+                91,
+                92,
+                104,
+                105,
+                106
+            ],
+            "indexHead": 102
+        },
+        {
+            "colorGecko": 5,
+            "listNode": [
+                115,
+                116,
+                117,
+                118,
+                130
+            ],
+            "indexHead": 115
+        },
+        {
+            "colorGecko": 4,
+            "listNode": [
+                129,
+                141,
+                153,
+                154,
+                155,
+                167
+            ],
+            "indexHead": 129
+        },
+        {
+            "colorGecko": 6,
+            "listNode": [
+                138,
+                150,
+                151,
+                152,
+                140,
+                128
+            ],
+            "indexHead": 138
+        },
+        {
+            "colorGecko": 1,
+            "listNode": [
+                54,
+                66,
+                78,
+                77,
+                76
+            ],
+            "indexHead": 54
+        },
+        {
+            "colorGecko": 3,
+            "listNode": [
+                27,
+                28,
+                29,
+                30
+            ],
+            "indexHead": 27
+        },
+        {
+            "colorGecko": 3,
+            "listNode": [
+                12,
+                0,
+                1,
+                13,
+                14,
+                2
+            ],
+            "indexHead": 12
+        },
+        {
+            "colorGecko": 2,
+            "listNode": [
+                15,
+                16,
+                17,
+                5,
+                4,
+                3
+            ],
+            "indexHead": 15
+        },
+        {
+            "colorGecko": 0,
+            "listNode": [
+                85,
+                84,
+                72,
+                60,
+                48,
+                49
+            ],
+            "indexHead": 85
+        },
+        {
+            "colorGecko": 1,
+            "listNode": [
+                62,
+                61,
+                73,
+                74,
+                75
+            ],
+            "indexHead": 62
+        },
+        {
+            "colorGecko": 4,
+            "listNode": [
+                50,
+                51,
+                63
+            ],
+            "indexHead": 50
+        },
+        {
+            "colorGecko": 0,
+            "listNode": [
+                136,
+                124,
+                125,
+                126,
+                127,
+                139
+            ],
+            "indexHead": 136
+        },
+        {
+            "colorGecko": 2,
+            "listNode": [
+                58,
+                70,
+                82,
+                81,
+                69
+            ],
+            "indexHead": 58
+        },
+        {
+            "colorGecko": 0,
+            "listNode": [
+                41,
+                42,
+                43,
+                31,
+                32
+            ],
+            "indexHead": 41
+        },
+        {
+            "colorGecko": 3,
+            "listNode": [
+                55,
+                67,
+                79,
+                80
+            ],
+            "indexHead": 55
+        },
+        {
+            "colorGecko": 1,
+            "listNode": [
+                11,
+                10
+            ],
+            "indexHead": 11
+        },
+        {
+            "colorGecko": 3,
+            "listNode": [
+                137,
+                149,
+                161,
+                162,
+                163,
+                164
+            ],
+            "indexHead": 137
+        },
+        {
+            "colorGecko": 4,
+            "listNode": [
+                157,
+                156,
+                144,
+                145,
+                133,
+                132
+            ],
+            "indexHead": 157
+        },
+        {
+            "colorGecko": 2,
+            "listNode": [
+                121,
+                109,
+                97,
+                96,
+                108,
+                120
+            ],
+            "indexHead": 121
+        },
+        {
+            "colorGecko": 5,
+            "listNode": [
+                123,
+                135,
+                147
+            ],
+            "indexHead": 123
+        },
+        {
+            "colorGecko": 5,
+            "listNode": [
+                52,
+                40
+            ],
+            "indexHead": 52
+        },
+        {
+            "colorGecko": 6,
+            "listNode": [
+                36,
+                37,
+                38,
+                39
+            ],
+            "indexHead": 36
+        },
+        {
+            "colorGecko": 4,
+            "listNode": [
+                59,
+                71,
+                83
+            ],
+            "indexHead": 59
+        },
+        {
+            "colorGecko": 0,
+            "listNode": [
+                33,
+                21,
+                9,
+                8
+            ],
+            "indexHead": 33
+        },
+        {
+            "colorGecko": 5,
+            "listNode": [
+                23,
+                35
+            ],
+            "indexHead": 23
+        },
+        {
+            "colorGecko": 4,
+            "listNode": [
+                134,
+                122,
+                110
+            ],
+            "indexHead": 134
+        },
+        {
+            "colorGecko": 5,
+            "listNode": [
+                99,
+                100,
+                101,
+                89,
+                88,
+                87,
+                86
+            ],
+            "indexHead": 99
+        }
+    ],
+    "listBrickInMap": [
+        {
+            "indexInMap": 111,
+            "hp": 32
+        },
+        {
+            "indexInMap": 24,
+            "hp": 24
+        },
+        {
+            "indexInMap": 65,
+            "hp": 30
+        },
+        {
+            "indexInMap": 148,
+            "hp": 15
+        }
+    ],
+    "listExitsInMap": [
+        {
+            "indexInMap": 93,
+            "color": 0
+        },
+        {
+            "indexInMap": 34,
+            "color": 2
+        },
+        {
+            "indexInMap": 159,
+            "color": 4
+        }
+    ],
+    "listStopInMap": [
+        {
+            "indexInMap": 112,
+            "value": 0
+        },
+        {
+            "indexInMap": 64,
+            "value": 0
+        },
+        {
+            "indexInMap": 25,
+            "value": 0
+        }
+    ],
+    "listBarrierInMap": [
+        {
+            "indexInMap": 57,
+            "isOpen": 1
+        },
+        {
+            "indexInMap": 158,
+            "isOpen": 0
+        },
+        {
+            "indexInMap": 47,
+            "isOpen": 0
+        },
+        {
+            "indexInMap": 90,
+            "isOpen": 0
+        },
+        {
+            "indexInMap": 98,
+            "isOpen": 1
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+  "score": 19.9008045,
+  "timeLimit": 0,
+  "column": 4,
+  "row": 5,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 5,
+      "listNode": [
+        16,
+        12,
+        8,
+        4,
+        0
+      ],
+      "indexHead": 16
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        19,
+        18,
+        17,
+        13,
+        9,
+        5,
+        1
+      ],
+      "indexHead": 19
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        2,
+        3,
+        7,
+        11,
+        15
+      ],
+      "indexHead": 2
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        6,
+        10,
+        14
+      ],
+      "indexHead": 6
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [],
+  "listStopInMap": [],
+  "listBarrierInMap": []
+}

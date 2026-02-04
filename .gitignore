@@ -1,0 +1,12 @@
+/Library/
+/Logs/
+/obj/
+/Temp/
+/.vscode/
+/.vs/
+/Assets/Firebase/Plugins/x86_64/
+*.Editor.csproj
+*.csproj
+*.sln
+*.cache
+Builds/test.apk

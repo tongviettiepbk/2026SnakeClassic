@@ -1,0 +1,89 @@
+{
+  "score": 18.0753422,
+  "timeLimit": 0,
+  "column": 9,
+  "row": 9,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 0,
+      "listNode": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        24
+      ],
+      "indexHead": 11
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        28,
+        37,
+        46,
+        55
+      ],
+      "indexHead": 28
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        34,
+        33,
+        32,
+        31,
+        40,
+        49,
+        58
+      ],
+      "indexHead": 34
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        66,
+        67,
+        68
+      ],
+      "indexHead": 66
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        70,
+        61
+      ],
+      "indexHead": 70
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [],
+  "listStopInMap": [],
+  "listBarrierInMap": [
+    {
+      "indexInMap": 18,
+      "isOpen": 0
+    },
+    {
+      "indexInMap": 38,
+      "isOpen": 1
+    },
+    {
+      "indexInMap": 50,
+      "isOpen": 0
+    },
+    {
+      "indexInMap": 35,
+      "isOpen": 1
+    },
+    {
+      "indexInMap": 63,
+      "isOpen": 0
+    },
+    {
+      "indexInMap": 80,
+      "isOpen": 1
+    }
+  ]
+}

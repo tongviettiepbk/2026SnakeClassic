@@ -1,0 +1,31 @@
+{
+  "": "",
+  "Notice": "",
+  "Confirm": "",
+  "Cancel": "",
+  "Retry": "",
+  "Loading": "",
+  "An error occurred. Please try again later.": "",
+  "Unable to connect. Please check your network connection.": "",
+  "Insufficient resources.": "",
+  "Your account has been suspended.": "",
+  "Your account and your device have been suspended.": "",
+  "A new version is available.\nPlease update game!": "",
+  "Please update the lastest game version.": "",
+  "Server is under maintenance.": "",
+  "Purchase was successfully.": "",
+  "Please come back tomorrow.": "",
+  "Coming soon next updated.": "",
+  "Invalid Email": "",
+  "The password must be between 6 to 16 characters in length.": "",
+  "Cannot connect to game server.\nPlease try again later.": "",
+  
+  "Tap To Continue":"",
+  
+  "Ice Walls lose health when the snake successfully moves  and disappear at zero.":"",
+  "Only a matching-color snake can escape through the Exit Hole.":"",
+  "The Stop tile lets the Snake pause. Tap again to continue moving.":"",	
+  "The Barrier has two states: closed and open.":""
+
+  
+}

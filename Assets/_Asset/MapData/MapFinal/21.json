@@ -1,0 +1,185 @@
+{
+  "score": 31.8754311,
+  "timeLimit": 0,
+  "typeMap": 0,
+  "column": 9,
+  "row": 9,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 0,
+      "listNode": [
+        17,
+        8,
+        7,
+        16,
+        15,
+        14,
+        13,
+        12,
+        3
+      ],
+      "indexHead": 17
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        6,
+        5,
+        4
+      ],
+      "indexHead": 6
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        42,
+        33,
+        24,
+        25,
+        34,
+        35
+      ],
+      "indexHead": 42
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        23,
+        22,
+        21,
+        20,
+        11,
+        2,
+        1,
+        0,
+        9
+      ],
+      "indexHead": 23
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        37,
+        46,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "indexHead": 37
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        45,
+        36,
+        27,
+        28,
+        29,
+        38,
+        39,
+        30
+      ],
+      "indexHead": 45
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        76,
+        77,
+        68,
+        67
+      ],
+      "indexHead": 76
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        51,
+        52,
+        53
+      ],
+      "indexHead": 51
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        49,
+        48,
+        47
+      ],
+      "indexHead": 49
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        41,
+        32,
+        31,
+        40
+      ],
+      "indexHead": 41
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        74,
+        75,
+        66,
+        65,
+        64,
+        63,
+        54
+      ],
+      "indexHead": 74
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        70,
+        71,
+        80,
+        79,
+        78
+      ],
+      "indexHead": 70
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [
+    {
+      "indexInMap": 44,
+      "color": 0
+    },
+    {
+      "indexInMap": 26,
+      "color": 2
+    },
+    {
+      "indexInMap": 69,
+      "color": 3
+    },
+    {
+      "indexInMap": 10,
+      "color": 4
+    },
+    {
+      "indexInMap": 72,
+      "color": 5
+    },
+    {
+      "indexInMap": 73,
+      "color": 2
+    },
+    {
+      "indexInMap": 50,
+      "color": 4
+    }
+  ],
+  "listStopInMap": [],
+  "listBarrierInMap": []
+}

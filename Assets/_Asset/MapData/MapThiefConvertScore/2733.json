@@ -1,0 +1,507 @@
+{
+  "score": 62.06981,
+  "timeLimit": 0,
+  "column": 31,
+  "row": 31,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 4,
+      "listNode": [
+        355,
+        386,
+        387
+      ],
+      "indexHead": 355
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        573,
+        574
+      ],
+      "indexHead": 573
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        354,
+        385,
+        416
+      ],
+      "indexHead": 354
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        364,
+        363,
+        332,
+        331,
+        330
+      ],
+      "indexHead": 364
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        855,
+        824,
+        793,
+        794,
+        795
+      ],
+      "indexHead": 855
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        228,
+        259
+      ],
+      "indexHead": 228
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        460,
+        491,
+        522,
+        553,
+        554,
+        555,
+        524,
+        523,
+        492
+      ],
+      "indexHead": 460
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        381,
+        382,
+        383,
+        352,
+        351
+      ],
+      "indexHead": 381
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        584,
+        615
+      ],
+      "indexHead": 584
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        788,
+        789,
+        758,
+        727,
+        726,
+        725,
+        724
+      ],
+      "indexHead": 788
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        362,
+        361,
+        392,
+        393,
+        394,
+        395,
+        396
+      ],
+      "indexHead": 362
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        134,
+        165,
+        196,
+        227,
+        226,
+        195,
+        164,
+        133,
+        102,
+        71,
+        70,
+        69,
+        68,
+        67,
+        66,
+        35,
+        4,
+        5,
+        6,
+        7,
+        38,
+        37,
+        36
+      ],
+      "indexHead": 134
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        101,
+        132,
+        163,
+        194,
+        225,
+        224
+      ],
+      "indexHead": 101
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        768,
+        767,
+        798,
+        829,
+        828,
+        827,
+        858,
+        889,
+        888,
+        887,
+        918,
+        949
+      ],
+      "indexHead": 768
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        764,
+        763,
+        762,
+        731,
+        700,
+        669,
+        638
+      ],
+      "indexHead": 764
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        93,
+        124,
+        155,
+        186,
+        217
+      ],
+      "indexHead": 93
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        417,
+        448,
+        479,
+        510,
+        541,
+        542,
+        543,
+        544,
+        513,
+        482,
+        451,
+        450,
+        449,
+        480,
+        511,
+        512,
+        481
+      ],
+      "indexHead": 417
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        546,
+        547,
+        548,
+        517,
+        486
+      ],
+      "indexHead": 546
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        3,
+        34,
+        65,
+        64,
+        63,
+        94,
+        125,
+        156,
+        187,
+        218
+      ],
+      "indexHead": 3
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        95,
+        126,
+        157,
+        188,
+        219,
+        250,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        322,
+        353,
+        384,
+        415,
+        446,
+        447,
+        478
+      ],
+      "indexHead": 95
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        350,
+        349,
+        318,
+        319,
+        320,
+        321
+      ],
+      "indexHead": 350
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        317,
+        316,
+        315
+      ],
+      "indexHead": 317
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "indexHead": 251
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        414,
+        445
+      ],
+      "indexHead": 414
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        418,
+        419
+      ],
+      "indexHead": 418
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        666,
+        697,
+        696,
+        695,
+        694,
+        693,
+        692,
+        661,
+        630,
+        631,
+        632,
+        663,
+        662
+      ],
+      "indexHead": 666
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        728,
+        759,
+        790,
+        821,
+        852
+      ],
+      "indexHead": 728
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        667,
+        698,
+        729,
+        760,
+        791,
+        822,
+        853,
+        884,
+        885,
+        854,
+        823,
+        792,
+        761,
+        730,
+        699,
+        668,
+        637,
+        606,
+        607,
+        576,
+        577,
+        578,
+        579
+      ],
+      "indexHead": 667
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        701,
+        732
+      ],
+      "indexHead": 701
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        514,
+        483
+      ],
+      "indexHead": 514
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        733,
+        734,
+        735,
+        704,
+        673,
+        674
+      ],
+      "indexHead": 733
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        737,
+        738,
+        739,
+        708,
+        677,
+        678,
+        679,
+        648,
+        617,
+        618,
+        619
+      ],
+      "indexHead": 737
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        424,
+        425,
+        426,
+        427,
+        428,
+        459,
+        490,
+        521,
+        552,
+        583,
+        614,
+        645,
+        644,
+        643,
+        612,
+        581,
+        550,
+        519,
+        488,
+        457,
+        456,
+        487,
+        518,
+        549,
+        580,
+        611
+      ],
+      "indexHead": 424
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        458,
+        489,
+        520,
+        551,
+        582,
+        613
+      ],
+      "indexHead": 458
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        641,
+        640,
+        671
+      ],
+      "indexHead": 641
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        757,
+        756
+      ],
+      "indexHead": 757
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [],
+  "listStopInMap": [],
+  "listBarrierInMap": []
+}

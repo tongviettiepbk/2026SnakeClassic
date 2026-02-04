@@ -1,0 +1,54 @@
+{
+  "column": 5,
+  "row": 6,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 1,
+      "listNode": [
+        27,
+        22,
+        17,
+        12,
+        7,
+        2
+      ],
+      "indexHead": 27
+    },
+    {
+      "colorGecko": 2,
+      "listNode": [
+        20,
+        21,
+        16,
+        11,
+        6,
+        1,
+        0,
+        5,
+        10,
+        15
+      ],
+      "indexHead": 20
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        24,
+        23,
+        18,
+        13,
+        8,
+        3,
+        4,
+        9,
+        14,
+        19
+      ],
+      "indexHead": 24
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [],
+  "listStopInMap": [],
+  "listBarrierInMap": []
+}

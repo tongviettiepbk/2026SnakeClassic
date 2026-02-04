@@ -1,0 +1,74 @@
+{
+  "column": 26,
+  "row": 40,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 6,
+      "listNode": [
+        1032,
+        1031,
+        1030,
+        1029,
+        1028,
+        1027
+      ],
+      "indexHead": 1032
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        998,
+        997,
+        996,
+        995,
+        969,
+        968,
+        942,
+        941,
+        915
+      ],
+      "indexHead": 998
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        957,
+        931
+      ],
+      "indexHead": 957
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        897,
+        896,
+        895,
+        894,
+        868
+      ],
+      "indexHead": 897
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        876,
+        875,
+        874,
+        873
+      ],
+      "indexHead": 876
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        853,
+        852
+      ],
+      "indexHead": 853
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [],
+  "listStopInMap": [],
+  "listBarrierInMap": []
+}

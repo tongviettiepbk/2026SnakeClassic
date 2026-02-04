@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85d59d295f50cb459a3d2acb9ea48d2, type: 3}
+  m_Name: Item-09-Super-Hero-Cape
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  type: 9
+  Name: Escape Snake
+  icon: {fileID: 21300000, guid: b8c6daef9a250e1449802f862748fc5b, type: 3}
+  iconLocked: {fileID: 21300000, guid: 8d23c70084ffb8d4c9c7f5a5ab7489a9, type: 3}
+  description: Choose one snake to equip the cape. After wearing it, the snake will
+    fly upward and move out of the map without being blocked by any obstacle.
+  shortDescription: Chose one snake to escape map.
+  value: 0
+  priceByGold: 100
+  showInInventory: 1
+  isUsable: 0
+  iconTut: {fileID: 21300000, guid: 71a0011f4ff91ec4a8540a8ab0c09b68, type: 3}
+  strTut: Chose one snake to escape map.

@@ -1,0 +1,1272 @@
+{
+    "XSize": 30,
+    "YSize": 30,
+    "Arrows": [
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 8,
+            "Y": 21,
+            "Indices": [
+                638,
+                608,
+                607,
+                577,
+                547,
+                517,
+                487,
+                486,
+                516,
+                546,
+                545,
+                575,
+                576,
+                606,
+                605,
+                635,
+                636,
+                637,
+                667,
+                666,
+                665
+            ],
+            "BendCount": 16,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 5,
+            "Y": 10,
+            "Indices": [
+                305,
+                306,
+                276,
+                246,
+                216,
+                186,
+                187,
+                157,
+                127,
+                128,
+                158,
+                188,
+                218,
+                248,
+                278,
+                277,
+                307,
+                337,
+                367,
+                397,
+                427,
+                426,
+                456,
+                455,
+                454,
+                484,
+                483,
+                513,
+                514,
+                515,
+                485
+            ],
+            "BendCount": 12,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 9,
+            "Y": 4,
+            "Indices": [
+                129,
+                130,
+                160,
+                159,
+                189,
+                219,
+                220,
+                221,
+                222,
+                252,
+                253,
+                283,
+                282,
+                281,
+                251,
+                250,
+                280,
+                310,
+                340,
+                370,
+                369,
+                339,
+                309,
+                279,
+                249
+            ],
+            "BendCount": 19,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 11,
+            "Y": 23,
+            "Indices": [
+                701,
+                731,
+                730,
+                700,
+                670,
+                669,
+                639,
+                640
+            ],
+            "BendCount": 6,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 26,
+            "Y": 12,
+            "Indices": [
+                386,
+                416,
+                446,
+                445,
+                475,
+                476,
+                477,
+                478
+            ],
+            "BendCount": 4,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 20,
+            "Y": 6,
+            "Indices": [
+                200,
+                201,
+                231,
+                261,
+                262,
+                232,
+                202,
+                203,
+                204,
+                174,
+                144
+            ],
+            "BendCount": 6,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 16,
+            "Y": 14,
+            "Indices": [
+                436,
+                437,
+                407,
+                406,
+                405,
+                404,
+                374,
+                375,
+                376,
+                346,
+                345,
+                344,
+                343,
+                373,
+                403
+            ],
+            "BendCount": 9,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 14,
+            "Y": 22,
+            "Indices": [
+                674,
+                675,
+                705,
+                704,
+                703,
+                702
+            ],
+            "BendCount": 5,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 16,
+            "Y": 26,
+            "Indices": [
+                796,
+                795,
+                794,
+                793,
+                823,
+                824,
+                825,
+                855
+            ],
+            "BendCount": 4,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 19,
+            "Y": 18,
+            "Indices": [
+                559,
+                529,
+                530,
+                560,
+                590,
+                620,
+                650,
+                651,
+                652,
+                682
+            ],
+            "BendCount": 8,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 6,
+            "Y": 11,
+            "Indices": [
+                336,
+                335,
+                365,
+                364,
+                363
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 12,
+            "Y": 2,
+            "Indices": [
+                72,
+                102,
+                101,
+                71,
+                70,
+                100,
+                99,
+                69,
+                39
+            ],
+            "BendCount": 7,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 12,
+            "Y": 26,
+            "Indices": [
+                792,
+                791,
+                761,
+                760
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 14,
+            "Y": 16,
+            "Indices": [
+                494,
+                495,
+                525,
+                524,
+                523
+            ],
+            "BendCount": 3,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 16,
+            "Y": 19,
+            "Indices": [
+                586,
+                585,
+                615,
+                614,
+                613,
+                643,
+                644,
+                645,
+                646,
+                676,
+                677,
+                678,
+                708,
+                707,
+                706
+            ],
+            "BendCount": 12,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 8,
+            "Y": 16,
+            "Indices": [
+                488,
+                489,
+                490,
+                520,
+                550,
+                549,
+                519
+            ],
+            "BendCount": 5,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 17,
+            "Y": 3,
+            "Indices": [
+                107,
+                106
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 28,
+            "Y": 17,
+            "Indices": [
+                538,
+                537,
+                536,
+                535,
+                534,
+                564,
+                594,
+                595,
+                625,
+                655,
+                654,
+                624
+            ],
+            "BendCount": 6,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 4,
+            "Y": 18,
+            "Indices": [
+                544,
+                543,
+                542,
+                512,
+                511,
+                541
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 18,
+            "Y": 3,
+            "Indices": [
+                108,
+                138,
+                137,
+                136,
+                135,
+                134,
+                164,
+                165,
+                166,
+                167,
+                197,
+                198,
+                228,
+                258,
+                257,
+                287,
+                288,
+                289,
+                290,
+                320,
+                321,
+                351,
+                352,
+                353,
+                323,
+                324,
+                294,
+                264,
+                265,
+                235,
+                234,
+                233,
+                263,
+                293,
+                292,
+                291
+            ],
+            "BendCount": 25,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 6,
+            "Y": 3,
+            "Indices": [
+                96,
+                126,
+                156
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 26,
+            "Y": 16,
+            "Indices": [
+                506,
+                507,
+                508
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 2,
+            "Y": 14,
+            "Indices": [
+                422,
+                452,
+                451
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 9,
+            "Y": 20,
+            "Indices": [
+                609,
+                579,
+                578
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 17,
+            "Y": 19,
+            "Indices": [
+                587,
+                617,
+                618,
+                588,
+                589,
+                619,
+                649,
+                679,
+                709,
+                739,
+                738,
+                737,
+                736,
+                735,
+                734,
+                733,
+                732,
+                762,
+                763,
+                764,
+                765,
+                766,
+                767,
+                768,
+                769
+            ],
+            "BendCount": 10,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 5,
+            "Y": 4,
+            "Indices": [
+                125,
+                155,
+                185,
+                215,
+                245,
+                244
+            ],
+            "BendCount": 5,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 11,
+            "Y": 14,
+            "Indices": [
+                431,
+                432,
+                462,
+                463,
+                433
+            ],
+            "BendCount": 4,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 12,
+            "Y": 4,
+            "Indices": [
+                132,
+                133,
+                163,
+                162,
+                161
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 1,
+            "Y": 16,
+            "Indices": [
+                481,
+                482
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 15,
+            "Y": 6,
+            "Indices": [
+                195,
+                225,
+                226,
+                227
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 11,
+            "Y": 19,
+            "Indices": [
+                581,
+                580
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 3,
+            "Y": 21,
+            "Indices": [
+                633,
+                634
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 19,
+            "Y": 4,
+            "Indices": [
+                139,
+                140,
+                170,
+                171,
+                172,
+                173,
+                143,
+                113
+            ],
+            "BendCount": 4,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 22,
+            "Y": 14,
+            "Indices": [
+                442,
+                472,
+                502,
+                503,
+                473,
+                443,
+                444,
+                414,
+                384,
+                385
+            ],
+            "BendCount": 6,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 7,
+            "Y": 3,
+            "Indices": [
+                97,
+                67,
+                68,
+                98
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 15,
+            "Y": 15,
+            "Indices": [
+                465,
+                464
+            ],
+            "BendCount": 1,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 22,
+            "Y": 18,
+            "Indices": [
+                562,
+                561,
+                531,
+                532,
+                533
+            ],
+            "BendCount": 4,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 23,
+            "Y": 21,
+            "Indices": [
+                653,
+                683,
+                684
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 19,
+            "Y": 5,
+            "Indices": [
+                169,
+                168
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 17,
+            "Y": 27,
+            "Indices": [
+                827,
+                826
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 22,
+            "Y": 19,
+            "Indices": [
+                592,
+                591,
+                621,
+                622,
+                623
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 12,
+            "Y": 20,
+            "Indices": [
+                612,
+                611,
+                610
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 17,
+            "Y": 21,
+            "Indices": [
+                647,
+                648
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 20,
+            "Y": 23,
+            "Indices": [
+                710,
+                680
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 17,
+            "Y": 2,
+            "Indices": [
+                77,
+                78
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 12,
+            "Y": 16,
+            "Indices": [
+                492,
+                493
+            ],
+            "BendCount": 1,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 8,
+            "Y": 18,
+            "Indices": [
+                548,
+                518
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 7,
+            "Y": 8,
+            "Indices": [
+                247,
+                217
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 14,
+            "Y": 14,
+            "Indices": [
+                434,
+                435
+            ],
+            "BendCount": 0,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 3,
+            "Y": 14,
+            "Indices": [
+                423,
+                424,
+                425,
+                395,
+                396
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 18,
+            "Y": 26,
+            "Indices": [
+                798,
+                797
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 13,
+            "Y": 19,
+            "Indices": [
+                583,
+                582
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 21,
+            "Y": 2,
+            "Indices": [
+                81,
+                111,
+                112,
+                142,
+                141
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 24,
+            "Y": 16,
+            "Indices": [
+                504,
+                474
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 16,
+            "Y": 16,
+            "Indices": [
+                496,
+                497,
+                467,
+                466
+            ],
+            "BendCount": 2,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 11,
+            "Y": 21,
+            "Indices": [
+                641,
+                671,
+                672,
+                673
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 9,
+            "Y": 24,
+            "Indices": [
+                729,
+                699
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 8,
+            "Y": 13,
+            "Indices": [
+                398,
+                399
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 27,
+            "Y": 14,
+            "Indices": [
+                447,
+                417
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 3,
+            "Y": 13,
+            "Indices": [
+                393,
+                394
+            ],
+            "BendCount": 1,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 26,
+            "Y": 18,
+            "Indices": [
+                566,
+                565
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 12,
+            "Y": 12,
+            "Indices": [
+                372,
+                402
+            ],
+            "BendCount": 0,
+            "fixedColor": 6,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 4,
+            "Y": 19,
+            "Indices": [
+                574,
+                573,
+                572,
+                602,
+                603,
+                604
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 8,
+            "Y": 14,
+            "Indices": [
+                428,
+                429,
+                459,
+                458,
+                457
+            ],
+            "BendCount": 2,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 10,
+            "Y": 6,
+            "Indices": [
+                190,
+                191,
+                192,
+                193,
+                223,
+                224,
+                254,
+                255,
+                256,
+                286,
+                285,
+                284
+            ],
+            "BendCount": 6,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 1,
+            "Dy": 0,
+            "X": 20,
+            "Y": 1,
+            "Indices": [
+                50,
+                49,
+                79,
+                109,
+                110,
+                80
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 26,
+            "Y": 21,
+            "Indices": [
+                656,
+                626,
+                627,
+                597,
+                567,
+                568
+            ],
+            "BendCount": 3,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 8,
+            "Y": 10,
+            "Indices": [
+                308,
+                338,
+                368
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 18,
+            "Y": 10,
+            "Indices": [
+                318,
+                319,
+                349,
+                350,
+                380,
+                381,
+                382,
+                383
+            ],
+            "BendCount": 4,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": -1,
+            "Dy": 0,
+            "X": 21,
+            "Y": 13,
+            "Indices": [
+                411,
+                412,
+                413
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 20,
+            "Y": 13,
+            "Indices": [
+                410,
+                440,
+                439,
+                469,
+                470,
+                471,
+                501,
+                500,
+                499
+            ],
+            "BendCount": 5,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": -1,
+            "X": 20,
+            "Y": 7,
+            "Indices": [
+                230,
+                260
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        },
+        {
+            "Dx": 0,
+            "Dy": 1,
+            "X": 19,
+            "Y": 8,
+            "Indices": [
+                259,
+                229
+            ],
+            "BendCount": 0,
+            "fixedColor": 5,
+            "customColor": ""
+        }
+    ]
+}

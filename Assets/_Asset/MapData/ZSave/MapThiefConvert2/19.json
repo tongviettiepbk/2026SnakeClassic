@@ -1,0 +1,202 @@
+{
+  "column": 11,
+  "row": 11,
+  "listGeckoInMap": [
+    {
+      "colorGecko": 0,
+      "listNode": [
+        112,
+        101,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        107,
+        118,
+        117,
+        116,
+        115,
+        114,
+        113,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "indexHead": 112
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        61,
+        60,
+        59,
+        58,
+        57,
+        56,
+        55,
+        66,
+        77,
+        88,
+        99,
+        110,
+        111,
+        100,
+        89
+      ],
+      "indexHead": 61
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        70,
+        81,
+        80,
+        69,
+        68,
+        79,
+        78,
+        67
+      ],
+      "indexHead": 70
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        82,
+        83,
+        84,
+        73,
+        72,
+        71
+      ],
+      "indexHead": 82
+    },
+    {
+      "colorGecko": 3,
+      "listNode": [
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        22,
+        11,
+        0
+      ],
+      "indexHead": 40
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        21,
+        32
+      ],
+      "indexHead": 4
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        64,
+        63,
+        62,
+        51,
+        52,
+        41,
+        42,
+        53
+      ],
+      "indexHead": 64
+    },
+    {
+      "colorGecko": 6,
+      "listNode": [
+        120,
+        119,
+        108,
+        97,
+        98,
+        87,
+        86,
+        85,
+        74,
+        75,
+        76,
+        65,
+        54,
+        43
+      ],
+      "indexHead": 120
+    },
+    {
+      "colorGecko": 1,
+      "listNode": [
+        18,
+        29,
+        28,
+        27,
+        26,
+        15,
+        16,
+        17
+      ],
+      "indexHead": 18
+    },
+    {
+      "colorGecko": 4,
+      "listNode": [
+        19,
+        30,
+        31,
+        20
+      ],
+      "indexHead": 19
+    },
+    {
+      "colorGecko": 0,
+      "listNode": [
+        1,
+        2,
+        3,
+        14,
+        25,
+        24,
+        23,
+        12,
+        13
+      ],
+      "indexHead": 1
+    },
+    {
+      "colorGecko": 5,
+      "listNode": [
+        50,
+        49,
+        48,
+        47,
+        46,
+        45,
+        44
+      ],
+      "indexHead": 50
+    }
+  ],
+  "listBrickInMap": [],
+  "listExitsInMap": [],
+  "listStopInMap": [],
+  "listBarrierInMap": []
+}

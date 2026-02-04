@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b001dbe1014adb744920c99352a463c8, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: Assembly-CSharp::ShopData
+  id: 1
+  packages:
+  - {fileID: 11400000, guid: 6c98341688ac8fb4a9ccd255c02b26dd, type: 2}
+  - {fileID: 11400000, guid: e2cff60c5269a8641acba7913b6e6e27, type: 2}
+  - {fileID: 11400000, guid: d8c70de45373c064f9e5024d9967e550, type: 2}
+  - {fileID: 11400000, guid: 601d4362ce5b33d41a005fa636debfb2, type: 2}
+  - {fileID: 11400000, guid: 6fc275d8872addc4392e4eeb8d71b521, type: 2}
