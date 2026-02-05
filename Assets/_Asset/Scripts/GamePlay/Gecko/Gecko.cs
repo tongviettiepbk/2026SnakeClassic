@@ -27,13 +27,10 @@ public class Gecko : MonoBehaviour
 {
     public GameObject objHeadPrefab;
     public GameObject objTailPrefab;
+    public GameObject objGroupTail;
     public SpriteRenderer lineHead;
     public Color colorLineNormal;
     public Color colorLineError;
-
-    [SerializeField]
-    private GeckoAnimController animGecko;
-
 
     public int indexHead { get; set; }
     public DirectionMove directionStart { get; private set; }
@@ -42,7 +39,7 @@ public class Gecko : MonoBehaviour
     private MapController mapController;
     private GameObject objHeadGecko = null;
 
-    [SerializeField] private GeckoBody geckoBody;
+    //[SerializeField] private GeckoBody geckoBody;
     [SerializeField] private List<GameObject> listObjTail = new List<GameObject>();
     private List<Vector3> listPosStart = new List<Vector3>();
     private List<Vector3> geckoPositions = new List<Vector3>();
@@ -140,22 +137,8 @@ public class Gecko : MonoBehaviour
                 objHeadGecko.GetComponent<GeckoPart>().Init(this, i, true);
                 objHeadGecko.SetActive(true);
 
-                try
-                {
-                    animGecko = objHeadGecko.transform.GetChild(0).GetChild(0).GetComponent<GeckoAnimController>();
-                }
-                catch
-                {
-
-                }
-
                 lineHead = objHeadGecko.transform.GetChild(1).GetComponent<SpriteRenderer>();
                 lineHead.color = colorLineNormal;
-
-                if (animGecko == null)
-                {
-                    DebugCustom.ShowDebugColorRed("No find animGecko");
-                }
 
             }
             else if (i == dataGeckoInMap.listNode.Count - 1)
@@ -187,7 +170,7 @@ public class Gecko : MonoBehaviour
         }
 
         // load thân 
-        geckoBody.Init(listPosStart.ToList());
+        //geckoBody.Init(listPosStart.ToList());
         directionStart = mapController.mapHelper.GetDirection(indexPre, indexHead);
 
         switch (directionStart)
@@ -313,11 +296,11 @@ public class Gecko : MonoBehaviour
                         {
                             listTempTest.Add(geckoPositions[i]);
                         }
-                        geckoBody.UpdateBody(listTempTest);
+                        //geckoBody.UpdateBody(listTempTest);
                     }
                     //--- end --------------------------------------
 
-                    geckoBody.ReloadBody();
+                    //geckoBody.ReloadBody();
 
                 }
                 else
@@ -330,7 +313,7 @@ public class Gecko : MonoBehaviour
                 if (targetNodeFinal.indexNodeInMap == mapController.mapHelper.WorldPosToIndex(posTarget))
                 {
                     // move ngược lại
-                    positionMoves.Insert(0, geckoBody.PositionStarts);
+                    //positionMoves.Insert(0, geckoBody.PositionStarts);
                     moveStateGecko = MoveStateGecko.MOVE_BACK;
 
                     //MapController.Instance.SetMoveFail();
@@ -385,11 +368,11 @@ public class Gecko : MonoBehaviour
                 positionMoves.RemoveAt(positionMoves.Count - 1);
 
                 objHeadGecko.transform.position = listMove[0];
-                geckoBody.UpdateBody(listMove);
+                //geckoBody.UpdateBody(listMove);
             }
             else
             {
-                geckoPositions = geckoBody.PositionStarts.ToList();
+                //geckoPositions = geckoBody.PositionStarts.ToList();
                 moveStateGecko = MoveStateGecko.IDLE;
             }
             return;
@@ -564,7 +547,7 @@ public class Gecko : MonoBehaviour
         }
 
         geckoPositions.RemoveDuplicates();
-        geckoBody.UpdateBody(geckoPositions);
+        //geckoBody.UpdateBody(geckoPositions);
         positionMoves.Add(geckoPositions.ToList());
     }
 
@@ -702,7 +685,7 @@ public class Gecko : MonoBehaviour
                         Vector3 posTemp = mapController.mapHelper.GetWorldPositionFromIndex(listIndexNew[i]);
                         listPosStart.Add(posTemp);
                     }
-                    geckoBody.UpdateListStartPos(listPosStart.ToList());
+                    //geckoBody.UpdateListStartPos(listPosStart.ToList());
 
                     EscapeMapForwardDirHead();
 
@@ -871,18 +854,11 @@ public class Gecko : MonoBehaviour
 
     private void SetIdle()
     {
-        if (animGecko != null)
-        {
-            animGecko.SetIlde();
-        }
+ 
     }
 
     private void SetStun()
     {
-        if (animGecko != null)
-        {
-            animGecko.SetStun();
-        }
 
         if (fxStun == null)
         {
