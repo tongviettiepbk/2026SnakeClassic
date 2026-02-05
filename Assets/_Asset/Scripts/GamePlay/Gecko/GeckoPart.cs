@@ -31,8 +31,8 @@ public class GeckoPart : MonoBehaviour
 
     public void FixedUpdate()
     {
-        //MoveToTargetPos();
-        //MoveToFollowing();
+        MoveToTargetPos();
+        MoveToFollowing();
     }
 
     public void SetInfo(Transform following)

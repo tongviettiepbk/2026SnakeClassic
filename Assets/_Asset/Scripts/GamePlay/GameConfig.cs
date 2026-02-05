@@ -40,7 +40,7 @@ public class GameConfig
     public const string SCENE_ROOT = "00Root";
     public const string SCENE_LOGIN = "Login";
     public const string SCENE_LOBBY = "02Lobby";
-    public const string SCENE_GAME = "01GamePlay";
+    public const string SCENE_GAME = "02GamePlay";
     public const string SCENE_LOADING = "03Loading";
     public const string SCENE_GD = "99TestGd";
     public const string SCENE_GAME_PROTOTYPE = "GamePrototype";

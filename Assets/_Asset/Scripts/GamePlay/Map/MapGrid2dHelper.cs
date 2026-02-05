@@ -28,7 +28,7 @@ public class MapGrid2dHelper : MonoBehaviour
             this.originPoint = (Vector3)origin;
         }
 
-        originPointWorld = originPoint - new Vector3(0.5f, 0f, 0.5f);
+        originPointWorld = originPoint - new Vector3(0.5f, 0.5f, 0f);
     }
 
     // =============================
@@ -154,14 +154,10 @@ public class MapGrid2dHelper : MonoBehaviour
         // Lấy tọa độ grid 2D theo (x,z)
         Vector2Int grid = IndexToXY(index);
 
-        float worldX = originPoint.x + (grid.x * sizeCell);
-        float worldZ = originPoint.z + (grid.y * sizeCell);
+        float worldX = originPoint.x + grid.x * sizeCell;
+        float worldY = originPoint.y + grid.y * sizeCell;
 
-        // Không đổi trục Y (để đặt nhân vật/đối tượng lên mặt phẳng)
-        float worldY = originPoint.y;
-
-        Vector3 worldPos = new Vector3(worldX, worldY, worldZ);
-        return worldPos;
+        return new Vector3(worldX, worldY, 0f);
     }
 
 
@@ -174,69 +170,71 @@ public class MapGrid2dHelper : MonoBehaviour
         Vector2Int cur = IndexToXY(currentIndex);
         Vector2Int nxt = IndexToXY(nextIndex);
 
-        int xA = cur.x;
-        int zA = cur.y;
-
-        int xB = nxt.x;
-        int zB = nxt.y;
-
-        // Trục Z → UP/DOWN
-        if (zB > zA)
-        {
-            return DirectionMove.UP;
-        }
-
-        if (zB < zA)
-        {
-            return DirectionMove.DOWN;
-        }
-
-        // Trục X → RIGHT/LEFT
-        if (xB > xA)
-        {
-            return DirectionMove.RIGHT;
-        }
-
-        if (xB < xA)
-        {
-            return DirectionMove.LEFT;
-        }
+        if (nxt.y > cur.y) return DirectionMove.UP;
+        if (nxt.y < cur.y) return DirectionMove.DOWN;
+        if (nxt.x > cur.x) return DirectionMove.RIGHT;
+        if (nxt.x < cur.x) return DirectionMove.LEFT;
 
         Debug.LogWarning("Hai index giống nhau, không xác định hướng!");
-        return DirectionMove.UP; // default tránh lỗi
+        return DirectionMove.UP;
+
+        //int xA = cur.x;
+        //int zA = cur.y;
+
+        //int xB = nxt.x;
+        //int zB = nxt.y;
+
+        //// Trục Z → UP/DOWN
+        //if (zB > zA)
+        //{
+        //    return DirectionMove.UP;
+        //}
+
+        //if (zB < zA)
+        //{
+        //    return DirectionMove.DOWN;
+        //}
+
+        //// Trục X → RIGHT/LEFT
+        //if (xB > xA)
+        //{
+        //    return DirectionMove.RIGHT;
+        //}
+
+        //if (xB < xA)
+        //{
+        //    return DirectionMove.LEFT;
+        //}
+
+        //Debug.LogWarning("Hai index giống nhau, không xác định hướng!");
+        //return DirectionMove.UP; // default tránh lỗi
     }
 
     public int WorldPosToIndex(Vector3 worldPos)
     {
         float offsetX = worldPos.x - originPointWorld.x;
-        float offsetZ = worldPos.z - originPointWorld.z;
+        float offsetY = worldPos.y - originPointWorld.y;
 
         int x = Mathf.FloorToInt(offsetX / sizeCell);
-        int z = Mathf.FloorToInt(offsetZ / sizeCell);
+        int y = Mathf.FloorToInt(offsetY / sizeCell);
 
-        bool inside = InMap(x, z);
-        if (!inside)
-        {
-            return -1;
-        }
+        return InMap(x, y) ? XYToIndex(x, y) : -1;
 
-        int index = XYToIndex(x, z);
-        return index;
+        //float offsetX = worldPos.x - originPointWorld.x;
+        //float offsetZ = worldPos.z - originPointWorld.z;
+
+        //int x = Mathf.FloorToInt(offsetX / sizeCell);
+        //int z = Mathf.FloorToInt(offsetZ / sizeCell);
+
+        //bool inside = InMap(x, z);
+        //if (!inside)
+        //{
+        //    return -1;
+        //}
+
+        //int index = XYToIndex(x, z);
+        //return index;
     }
-
-    //public int GetIndexFromWorldPosition(Vector3 worldPos)
-    //{
-    //    float localX = worldPos.x - originPoint.x;
-    //    float localZ = worldPos.z - originPoint.z;
-
-    //    int x = Mathf.FloorToInt(localX / sizeCell);
-    //    int y = Mathf.FloorToInt(localZ / sizeCell);
-
-    //    if (!InMap(x, y))
-    //        return -1;
-
-    //    return XYToIndex(x, y);
-    //}
 
     public Vector2 GetDirectionGecko(int indexHead, int indexNecko)
     {

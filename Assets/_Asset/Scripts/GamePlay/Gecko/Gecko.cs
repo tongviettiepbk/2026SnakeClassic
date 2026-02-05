@@ -53,8 +53,8 @@ public class Gecko : MonoBehaviour
 
     private float angleUp = 0;
     private float angleDown = 180;
-    private float angleLeft = -90;
-    private float angleRight = 90;
+    private float angleLeft = 90;
+    private float angleRight = -90;
 
     private NodeMap targetNodeFinal;
     private NodeMap targetNodeFinalTemp;
@@ -131,7 +131,9 @@ public class Gecko : MonoBehaviour
             if (i == 0)
             {
                 // đầu gecko
-                objHeadGecko = Instantiate(objHeadPrefab, this.transform);
+                //objHeadGecko = Instantiate(objHeadPrefab, this.transform);
+
+                objHeadGecko = objHeadPrefab;
                 objHeadGecko.transform.position = posTemp;
                 part = objHeadGecko.GetComponent<GeckoPart>();
                 objHeadGecko.GetComponent<GeckoPart>().Init(this, i, true);
@@ -176,16 +178,16 @@ public class Gecko : MonoBehaviour
         switch (directionStart)
         {
             case DirectionMove.UP:
-                objHeadGecko.transform.localEulerAngles = new Vector3(0, angleUp, 0);
+                objHeadGecko.transform.localEulerAngles = new Vector3(0, 0, angleUp);
                 break;
             case DirectionMove.DOWN:
-                objHeadGecko.transform.localEulerAngles = new Vector3(0, angleDown, 0);
+                objHeadGecko.transform.localEulerAngles = new Vector3(0, 0, angleDown);
                 break;
             case DirectionMove.LEFT:
-                objHeadGecko.transform.localEulerAngles = new Vector3(0, angleLeft, 0);
+                objHeadGecko.transform.localEulerAngles = new Vector3(0, 0, angleLeft);
                 break;
             case DirectionMove.RIGHT:
-                objHeadGecko.transform.localEulerAngles = new Vector3(0, angleRight, 0);
+                objHeadGecko.transform.localEulerAngles = new Vector3(0, 0, angleRight);
                 break;
         }
     }
@@ -854,7 +856,7 @@ public class Gecko : MonoBehaviour
 
     private void SetIdle()
     {
- 
+
     }
 
     private void SetStun()
