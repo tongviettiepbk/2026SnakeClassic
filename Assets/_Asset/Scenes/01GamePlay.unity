@@ -367,7 +367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1883010154
 Light:
   m_ObjectHideFlags: 0
@@ -537,6 +537,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6630990611607784463, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630990611607784463, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630990611607784463, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630990611607784463, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630990611607784463, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6723612910170837506, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -568,6 +588,22 @@ PrefabInstance:
     - target: {fileID: 6915985983710092697, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215517269407811109, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215517269407811109, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.6603774
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215517269407811109, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.4018634
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215517269407811109, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.23362409
       objectReference: {fileID: 0}
     - target: {fileID: 7792736839623602988, guid: d172f1d857cc43443bb0a7fa57febf0c, type: 3}
       propertyPath: m_AnchorMax.y
