@@ -82,7 +82,6 @@ public class MapController : MonoBehaviour
     public List<NodeMap> listNodeMap = new List<NodeMap>();
 
     [Space(20)]
-    public List<GameObject> listPlanObj;
     public GameObject objFirework;
 
     public List<Gecko> listGecko = new List<Gecko>();
@@ -130,7 +129,6 @@ public class MapController : MonoBehaviour
     void Start()
     {
         Instance = this;
-        LoadBgGame();
 
         levelCurrent = GameData.userData.profile.currentStageId;
 
@@ -571,17 +569,6 @@ public class MapController : MonoBehaviour
         return timeTemp;
     }
 
-    private void LoadBgGame()
-    {
-        for (int i = 0; i < listPlanObj.Count; i++)
-        {
-            listPlanObj[i].gameObject.SetActive(false);
-        }
-
-        int indexOpenBg = 0;
-        indexOpenBg = Random.Range(0, 3);
-        listPlanObj[indexOpenBg].SetActive(true);
-    }
     #endregion
 
     #region Logic Map
@@ -841,17 +828,24 @@ public class MapController : MonoBehaviour
 
     public Vector3 GetWorldPositionFromClick(Vector3 screenPos)
     {
-        Ray ray = Camera.main.ScreenPointToRay(screenPos);
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
 
-        Plane plane = new Plane(Vector3.up, Vector3.zero);
-        float dist;
+        // ép Z = 0 vì game 2D
+        worldPos.z = 0f;
 
-        if (plane.Raycast(ray, out dist))
-        {
-            return ray.GetPoint(dist);
-        }
+        return worldPos;
 
-        return Vector3.zero;
+        //Ray ray = Camera.main.ScreenPointToRay(screenPos);
+
+        //Plane plane = new Plane(Vector3.up, Vector3.zero);
+        //float dist;
+
+        //if (plane.Raycast(ray, out dist))
+        //{
+        //    return ray.GetPoint(dist);
+        //}
+
+        //return Vector3.zero;
     }
 
     public Gecko GetGeckoWithIndex(int index)
@@ -2024,23 +2018,6 @@ public class MapController : MonoBehaviour
             }
         }
 
-        if (GameConfig.indexBgMkt > 0)
-        {
-            for (int i = 0; i < listPlanObj.Count; i++)
-            {
-                listPlanObj[i].SetActive(false);
-            }
-
-            var indexLoadTemp = GameConfig.indexBgMkt;
-            if (indexLoadTemp > listPlanObj.Count - 1)
-            {
-
-            }
-            else
-            {
-                listPlanObj[indexLoadTemp].SetActive(true);
-            }
-        }
     }
 
     private void CreateMapDefaultMkt()

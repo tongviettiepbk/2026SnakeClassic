@@ -36,10 +36,6 @@ public class CameraController : MonoBehaviour
 
     public float dragSpeed = 0.01f;   // Tốc độ kéo camera
 
-    // Vector3 posCamOffset = Vector3.zero;
-    // Vector3 posTarget = Vector3.zero;
-    // Vector3 tempVector3 = Vector3.zero;
-
     //zoom in out
     public float zoomSpeed = 0.01f;
     public float minZoom = 3f;
@@ -129,37 +125,10 @@ public class CameraController : MonoBehaviour
             size = minZoom;
 
         // Set camera position
-        defaultZoom = size +2 ;
+        defaultZoom = size + 2;
         maxZoom = defaultZoom + 5;
         sizeStart = size;
     }
-
-    //public void InitCameraByMap(int col, int row)
-    //{
-    //    float cellSize = GameConfig.sizeCell;
-
-    //    float mapWidth = col * cellSize;
-    //    float mapHeight = row * cellSize;
-
-    //    float aspect = (float)Screen.width / Screen.height;
-
-    //    float sizeByHeight = mapHeight;
-    //    float sizeByWidth = mapWidth  * aspect;
-
-    //    float size = Mathf.Max(sizeByHeight, sizeByWidth);
-
-    //    // Tablet thường màn hình rộng → có thể giảm bớt
-    //    //if (GameConfig.IS_TABLET)
-    //    //{
-    //    //    size *= 0.9f; // thay vì -8 (an toàn hơn)
-    //    //}
-
-    //    size = Mathf.Max(size, minZoom);
-
-    //    defaultZoom = size;   // padding nhẹ
-    //    maxZoom = defaultZoom + 3f;
-    //}
-
 
     public void SetCameraCenterMap()
     {
@@ -171,10 +140,10 @@ public class CameraController : MonoBehaviour
         Vector3 posCameraTemp = mainCamera.transform.position;
         this.posCenterMap = posCameraTemp;
         this.posCenterMap.x = sizeTemp / 2f - 0.5f;
-        this.posCenterMap.z = sizeTemp / 2f;
+        this.posCenterMap.y = sizeTemp / 2f;
 
         posCameraTemp.x = sizeTemp / 2f - 0.5f;
-        posCameraTemp.z = mapController.mapHelper.row / 2f - GetOppositeSide(15, 30);
+        posCameraTemp.y = mapController.mapHelper.row / 2f;
 
         mainCamera.transform.position = posCameraTemp;
 
@@ -183,10 +152,10 @@ public class CameraController : MonoBehaviour
         tranRight.position = new Vector3(posCameraTemp.x + defaultZoom / 2, 0f, 0f);
 
         // wall top - bottom
-        tranTop.position = new Vector3(mainCamera.transform.position.x, 0f, this.mapHelper.row * GameConfig.sizeCell * 1.5f);
-        tranBottom.position = new Vector3(mainCamera.transform.position.x, 0f, this.mapHelper.row * GameConfig.sizeCell * -0.5f);
+        tranTop.position = new Vector3(mainCamera.transform.position.x, this.mapHelper.row * GameConfig.sizeCell * 1.5f, 0f);
+        tranBottom.position = new Vector3(mainCamera.transform.position.x, this.mapHelper.row * GameConfig.sizeCell * -0.5f, 0f);
 
-        wallTopBottom = new Vector2(tranTop.position.z - GetOppositeSide(15, 30), tranBottom.position.z - GetOppositeSide(15, 30));
+        wallTopBottom = new Vector2(tranTop.position.y, tranBottom.position.y);
 
         // size anim
         this.posCameraCenter = posCameraTemp;
@@ -194,16 +163,6 @@ public class CameraController : MonoBehaviour
         PlayCamareStartGame(minZoom, defaultZoom, timePlayCameraStart);
     }
 
-    private float GetOppositeSide(float angleDegree, float adjacentLength)
-    {
-        // Đổi độ sang radian vì hàm Mathf.Tan dùng radian
-        float angleRad = angleDegree * Mathf.Deg2Rad;
-
-        // Công thức: đối = kề * tan(góc)
-        float opposite = adjacentLength * Mathf.Tan(angleRad);
-
-        return opposite;
-    }
 
     public void TouchMoveCamera()
     {
@@ -249,7 +208,7 @@ public class CameraController : MonoBehaviour
                     else if (newPos.x > tranRight.position.x) newPos.x = tranRight.position.x;
 
                     if (newPos.z > wallTopBottom.x) newPos.z = wallTopBottom.x;
-                    else if (newPos.z < wallTopBottom.y) newPos.z = wallTopBottom.y;
+                    else if (newPos.y < wallTopBottom.y) newPos.y = wallTopBottom.y;
 
                     // check camera đi ra khỏi biên top - bottom?
                     transform.position = newPos;
@@ -365,18 +324,23 @@ public class CameraController : MonoBehaviour
             if (offsetWorldWithMouse > 0)
             {
                 Vector3 delta = startMousePoint - currentMousePoint;
-                delta = new Vector3(delta.x * offsetWorldWithMouse, 0f, delta.y * offsetWorldWithMouse);
+                delta = new Vector3(delta.x * offsetWorldWithMouse,  delta.y * offsetWorldWithMouse,0);
 
                 var newPos = transform.position + delta;
 
                 // check camera đi ra khỏi biên left - right?
-                if (newPos.x < tranLeft.position.x) newPos.x = tranLeft.position.x;
-                else if (newPos.x > tranRight.position.x) newPos.x = tranRight.position.x;
-
-                if (newPos.z > wallTopBottom.x) newPos.z = wallTopBottom.x;
-                else if (newPos.z < wallTopBottom.y) newPos.z = wallTopBottom.y;
+                if (newPos.x < tranLeft.position.x)
+                    newPos.x = tranLeft.position.x;
+                else if (newPos.x > tranRight.position.x)
+                    newPos.x = tranRight.position.x;
 
                 // check camera đi ra khỏi biên top - bottom?
+                //if (newPos.y > wallTopBottom.x) 
+                //    newPos.y = wallTopBottom.x;
+                //else if (newPos.x < wallTopBottom.y)
+                //    newPos.y = wallTopBottom.y;
+
+               
                 transform.position = newPos;
 
                 startMousePoint = currentMousePoint; // update lại để không jitter
@@ -445,12 +409,18 @@ public class CameraController : MonoBehaviour
     // suport
     Vector3 GetWorldPosition(Vector3 position)
     {
-        Ray ray = Camera.main.ScreenPointToRay(position);
-        if (Physics.Raycast(ray, out RaycastHit hit, 500f, groundLayer))
-        {
-            return hit.point;
-        }
-        return transform.position; // fallback
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(position);
+
+        worldPos.z = 0f;
+
+        return worldPos;
+
+        //Ray ray = Camera.main.ScreenPointToRay(position);
+        //if (Physics.Raycast(ray, out RaycastHit hit, 500f, groundLayer))
+        //{
+        //    return hit.point;
+        //}
+        //return transform.position; // fallback
     }
 
     // animation

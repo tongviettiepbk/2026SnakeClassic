@@ -559,10 +559,10 @@ public class Gecko : MonoBehaviour
         switch (directionStart)
         {
             case DirectionMove.UP:
-                posNextTemp.z += 1;
+                posNextTemp.y += 1;
                 break;
             case DirectionMove.DOWN:
-                posNextTemp.z -= 1;
+                posNextTemp.y -= 1;
                 break;
             case DirectionMove.LEFT:
                 posNextTemp.x -= 1;
